@@ -8,7 +8,7 @@ app.use(express.static(__dirname+'/public'));
 app.set('views', __dirname + '/views');
 
 app.get('/', function(request, response) {
-  response.json({data:"yo did it broh!"})
+  response.json("yo did it broh!")
 });
 
 app.listen(app.get('port'), function() {
