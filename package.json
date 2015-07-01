@@ -1,0 +1,25 @@
+{
+  "name": "herokutest",
+  "version": "1.0.0",
+  "description": "herotest",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayrore/herokutest.git"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "jayro salgado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayrore/herokutest/issues"
+  },
+  "homepage": "https://github.com/jayrore/herokutest#readme",
+  "dependencies": {
+    "express": "^4.13.0"
+  }
+}
